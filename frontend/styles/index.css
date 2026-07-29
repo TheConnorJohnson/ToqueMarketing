@@ -1,9 +1,10 @@
 :root {
   --body-background: #f2f2f2;
   --body-color: #444;
+  --button-color: #f2f2f2;
   --heading-color: black;
   --action-color: #d64045;
-  --footer-color: #19b2db;
+  --footer-color: #00b1de;
   --yellow: #fdda38;
 }
 
@@ -92,4 +93,20 @@ hr {
   border: none;
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
+}
+
+button {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+  background-color: #00b1de;
+  color: black;
+  font-weight: 800;
+}
+
+button:hover {
+  background-color: #0073de;
+  color: var(--button-color);
 }
