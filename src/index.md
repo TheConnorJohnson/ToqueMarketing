@@ -1,11 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 
-layout: default
 title: Toque Marketing
+layout: default
+template_engine: erb
 ---
 
-# Toque Marketing
 ## Comfortably Navigate Modern Marketing
 
 Modern marketing is equal parts communication, creativity, and technology. So are we.
@@ -32,25 +32,27 @@ Effective marketing doesn't stop when the strategy is approved. A great tech sta
 
 Toque Marketing brings both sides together with services ranging from individual projects and specialized technical work to ongoing fractional support.
 
-### Branding & Messaging
+<%= render(Shared::Card.new(title: "Branding and Messaging", buttonlink: "https://www.emberot.com", buttontitle: "Create Your Marketing Strategy")) do |card| %>
 
-**Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.**
+<p>Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.</p>
 
-We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.
+<p>We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.</p>
 
-- Brand strategy and positioning
-- Messaging development
-- Brand identity and style guides
-- Marketing and communications strategy
-- Campaign development
-- Audience and stakeholder strategy
-- Fractional marketing and communications leadership
+<li>
+    <ul>Brand strategy and positioning</ul>
+    <ul>Messaging development</ul>
+    <ul>Brand identity and style guides</ul>
+    <ul>Marketing and communications strategy</ul>
+    <ul>Campaign development</ul>
+    <ul>Audience and stakeholder strategy</ul>
+    <ul>Fractional marketing and communications leadership</ul>
+</li>
 
-**Brand identity packages starting at $4,500**
+<p>Brand identity packages starting at $4,500.</p>
 
-Already have a brand but need help with positioning, messaging, or go-to-market strategy? We offer project-based consulting.
+<p>Already have a brand but need help with positioning, messaging, or go-to-market strategy? We offer project-based consulting.</p>
 
-<button href=""> Create Your Marketing Strategy </button>
+<% end %>
 
 ### AI Search, AEO & GEO Optimization
 

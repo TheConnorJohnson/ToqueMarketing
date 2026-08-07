@@ -6,8 +6,20 @@
   <body class="<%= data.layout %> <%= data.page_class %>">
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
+    <h1>
+      <%= data.title %>
+    </h1>
+    
     <main>
       <%= yield %>
+
+      <%= render(Shared::Card.new(title: "Branding and Messaging", buttonlink: "href=https://www.emberot.com" , buttontitle: "Create Your Marketing Strategy")) do |card| %>
+        <p>Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.</p>
+        <p>We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.</p>
+        <li>
+          <ul>Brand strategy and positioning</ul>
+        </li>
+      <% end %>
     </main>
 
     <%= render "footer", metadata: site.metadata %>
