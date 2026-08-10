@@ -54,120 +54,130 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-### AI Search, AEO & GEO Optimization
+<%= render(Shared::Card.new(title: "AI Search, AEO & GEO Optimization", buttonlink: " ", buttontitle: "Help the AI-Powered Robots Find My Copy")) do |card| %>
 
-**We leverage technical expertise to elevate the creative assets you've already invested in.**
+<p><strong>We leverage technical expertise to elevate the creative assets you've already invested in.</strong></p>
 
-Your customers aren't searching the way they used to. But that doesn't mean your content isn't still valuable. It just needs help being discovered.
+<p>Your customers aren't searching the way they used to. But that doesn't mean your content isn't still valuable. It just needs help being discovered.</p>
 
-Toque Marketing doesn't replace your human-created work with AI slop. Rather, we adapt your existing content library for today's SEO, AEO, and GEO landscape.
+<p>Toque Marketing doesn't replace your human-created work with AI slop. Rather, we adapt your existing content library for today's SEO, AEO, and GEO landscape.</p>
 
-We do this by combining content optimization with the technical, backend work that helps search engines and AI systems understand, structure, and surface your content.
+<p>We do this by combining content optimization with the technical, backend work that helps search engines and AI systems understand, structure, and surface your content.</p>
 
-- AI search readiness assessments
-- AEO and GEO optimization
-- Technical AEO and GEO implementation
-- Existing content audits and modernization
-- Answer-first content structure
-- User intent and semantic optimization
-- Metadata review and optimization
-- Internal linking recommendations
-- FAQ development
-- Structured data recommendations and implementation
-- Search visibility baselines and optimization roadmaps
+<li>
+  <ul>AI search readiness assessments</ul>
+  <ul>AEO and GEO optimization</ul>
+  <ul>Technical AEO and GEO implementation</ul>
+  <ul>Existing content audits and modernization</ul>
+  <ul>Answer-first content structure</ul>
+  <ul>User intent and semantic optimization</ul>
+  <ul>Metadata review and optimization</ul>
+  <ul>Internal linking recommendations</ul>
+  <ul>FAQ development</ul>
+  <ul>Structured data recommendations and implementation</ul>
+  <ul>Search visibility baselines and optimization roadmaps</ul>
+</li>
 
-**AI Search Readiness Assessments starting at $1,500**
+<p><strong>AI Search Readiness Assessments starting at $1,500</strong></p>
 
-**Optimization Sprints starting at $2,750**
+<p><strong>Optimization Sprints starting at $2,750</strong></p>
 
-<button href=""> Help the AI-Powered Robots Find My Copy </button>
+<% end %>
 
-### Web Design, Development & Digital Experience
+<%= render(Shared::Card.new(title: "Web Design, Development & Digital Experience", buttonlink: " ", buttontitle: "Let's Build Your Homebase")) do |card| %>
 
-**No matter how great an idea is, you still need someone who can actually build it. Gain an optimized website that is built to to expand with your business.**
+<p><strong>No matter how great an idea is, you still need someone who can actually build it. Gain an optimized website that is built to to expand with your business.</strong></p>
 
-We design, develop, maintain, and improve digital experiences with your business goals and users in mind. We never implement or suggest technology just for technology's sake.
+<p>We design, develop, maintain, and improve digital experiences with your business goals and users in mind. We never implement or suggest technology just for technology's sake.</p>
 
-- Website strategy and architecture
-- UX/UI design and review
-- Website design and development
-- CMS implementation and management
-- Custom CMS development
-- Platform migrations
-- Landing page development
-- Website maintenance and optimization
-- Automation and integrations
-- Analytics implementation
+<li>
+  <ul>Website strategy and architecture</ul>
+  <ul>UX/UI design and review</ul>
+  <ul>Website design and development</ul>
+  <ul>CMS implementation and management</ul>
+  <ul>Custom CMS development</ul>
+  <ul>Platform migrations</ul>
+  <ul>Landing page development</ul>
+  <ul>Website maintenance and optimization</ul>
+  <ul>Automation and integrations</ul>
+  <ul>Analytics implementation</ul>
+</li>
 
-**Website design and build projects starting at $5,000**
+<p><strong>Website design and build projects starting at $5,000</strong></p>
 
-Custom development and migrations quoted by project.
+<p>Custom development and migrations quoted by project.</p>
 
-<button href=""> Let's Build Something </button>
+<% end %>
 
-### Content, Communications & PR
+<%= render(Shared::Card.new(title: "Content, Communications & PR", buttonlink: " ", buttontitle: "Find Your Voice")) do |card| %>
 
-**We help the right people understand your message and why it matters.**
+<p><strong>We help the right people understand your message and why it matters.</strong></p>
 
-From deeply researched thought leadership to a time-sensitive media response, we turn expertise and information into clear, compelling communications built around the people you need to reach.
+<p>From deeply researched thought leadership to a time-sensitive media response, we turn expertise and information into clear, compelling communications built around the people you need to reach.</p>
 
-- Content and editorial strategy
-- Copywriting and long-form content
-- Thought leadership
-- Executive ghostwriting
-- Blogs, articles, white papers, and case studies
-- Email marketing and newsletters
-- Public relations and media outreach
-- Press releases and media materials
-- Executive and stakeholder communications
+<li>
+  <ul>Content and editorial strategy</ul>
+  <ul>Copywriting and long-form content</ul>
+  <ul>Thought leadership</ul>
+  <ul>Executive ghostwriting</ul>
+  <ul>Blogs, articles, white papers, and case studies</ul>
+  <ul>Email marketing and newsletters</ul>
+  <ul>Public relations and media outreach</ul>
+  <ul>Press releases and media materials</ul>
+  <ul>Executive and stakeholder communications</ul>
+</li>
 
-**Crisis communications sprints starting at $2,500**
+<p><strong>Crisis communications sprints starting at $2,500</strong></p>
 
-Need something else? Content, communications, and PR projects can also be scoped individually or as ongoing support.
+<p>Need something else? Content, communications, and PR projects can also be scoped individually or as ongoing support.</p>
 
-<button href=""> Find Your Voice </button>
+<% end %>
 
-### Social & Digital Marketing
+<%= render(Shared::Card.new(title: "Social & Digital Marketing", buttonlink: " ", buttontitle: "Plan A Campaign")) do |card| %>
 
-**Being everywhere all the time isn't a marketing strategy. Being in the right digital spaces for the right people is.**
+<p><strong>Being everywhere all the time isn't a marketing strategy. Being in the right digital spaces for the right people is.</strong></p>
 
-We plan and execute digital campaigns around your goals, audience, and resources, not an arbitrary posting quota or whatever the algorithm supposedly wants this week.
+<p>We plan and execute digital campaigns around your goals, audience, and resources, not an arbitrary posting quota or whatever the algorithm supposedly wants this week.</p>
 
-- Social media strategy and management
-- Organic and paid social campaigns
-- Content calendars
-- Email campaigns
-- Digital advertising
-- Campaign analytics and reporting
-- Audience growth and engagement strategy
-- Multi-channel campaign development
+<li>
+  <ul>Social media strategy and management</ul>
+  <ul>Organic and paid social campaigns</ul>
+  <ul>Content calendars</ul>
+  <ul>Email campaigns</ul>
+  <ul>Digital advertising</ul>
+  <ul>Campaign analytics and reporting</ul>
+  <ul>Audience growth and engagement strategy</ul>
+  <ul>Multi-channel campaign development</ul>
+</li>
 
-Available as part of ongoing marketing engagements or as individual custom campaigns.
+<p>Available as part of ongoing marketing engagements or as individual custom campaigns.</p>
 
-<button href=""> Plan a Campaign </button>
+<% end %>
 
-### Accessibility, Security & Technical Services
+<%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", buttonlink: "", buttontitle: "Build Something Everyone Can Use")) do |card| %>
 
-**Some projects require expertise that doesn't fit neatly into a traditional marketing org chart. That's kind of our thing.**
+<p><strong>Some projects require expertise that doesn't fit neatly into a traditional marketing org chart. That's kind of our thing.</strong></p>
 
-Our extended technical capabilities help organizations create digital experiences and resources that are more accessible, secure, usable, and 
-easier to maintain.
+<p>Our extended technical capabilities help organizations create digital experiences and resources that are more accessible, secure, usable, and 
+easier to maintain.</p>
 
-- Website accessibility audits
-- WCAG 2.2 AA accessibility reviews
-- Manual and automated accessibility testing
-- Accessibility remediation and retesting
-- PDF accessibility review
-- Cybersecurity audits and assessments
-- Technical documentation
-- Custom development
-- Specialized technical consulting
+<li>
+  <ul>Website accessibility audits</ul>
+  <ul>WCAG 2.2 AA accessibility reviews</ul>
+  <ul>Manual and automated accessibility testing</ul>
+  <ul>Accessibility remediation and retesting</ul>
+  <ul>PDF accessibility review</ul>
+  <ul>Cybersecurity audits and assessments</ul>
+  <ul>Technical documentation</ul>
+  <ul>Custom development</ul>
+  <ul>Specialized technical consulting</ul>
+</li>
 
-**Website accessibility audits starting at $1,500**
+<p><strong>Website accessibility audits starting at $1,500</strong></p>
 
-Technical documentation, cybersecurity, remediation, and specialized projects quoted by scope.
+<p>Technical documentation, cybersecurity, remediation, and specialized projects quoted by scope.</p>
 
-<button href=""> Build Something Everyone Can Use </button>
+<% end %>
 
 ## Meet the Team Behind Toque
 
