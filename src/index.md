@@ -38,15 +38,15 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <p>We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.</p>
 
-<li>
-    <ul>Brand strategy and positioning</ul>
-    <ul>Messaging development</ul>
-    <ul>Brand identity and style guides</ul>
-    <ul>Marketing and communications strategy</ul>
-    <ul>Campaign development</ul>
-    <ul>Audience and stakeholder strategy</ul>
-    <ul>Fractional marketing and communications leadership</ul>
-</li>
+<ul>
+    <li>Brand strategy and positioning</li>
+    <li>Messaging development</li>
+    <li>Brand identity and style guides</li>
+    <li>Marketing and communications strategy</li>
+    <li>Campaign development</li>
+    <li>Audience and stakeholder strategy</li>
+    <li>Fractional marketing and communications leadership</li>
+</ul>
 
 <p>Brand identity packages starting at $4,500.</p>
 
@@ -64,19 +64,19 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <p>We do this by combining content optimization with the technical, backend work that helps search engines and AI systems understand, structure, and surface your content.</p>
 
-<li>
-  <ul>AI search readiness assessments</ul>
-  <ul>AEO and GEO optimization</ul>
-  <ul>Technical AEO and GEO implementation</ul>
-  <ul>Existing content audits and modernization</ul>
-  <ul>Answer-first content structure</ul>
-  <ul>User intent and semantic optimization</ul>
-  <ul>Metadata review and optimization</ul>
-  <ul>Internal linking recommendations</ul>
-  <ul>FAQ development</ul>
-  <ul>Structured data recommendations and implementation</ul>
-  <ul>Search visibility baselines and optimization roadmaps</ul>
-</li>
+<ul>
+  <li>AI search readiness assessments</li>
+  <li>AEO and GEO optimization</li>
+  <li>Technical AEO and GEO implementation</li>
+  <li>Existing content audits and modernization</li>
+  <li>Answer-first content structure</li>
+  <li>User intent and semantic optimization</li>
+  <li>Metadata review and optimization</li>
+  <li>Internal linking recommendations</li>
+  <li>FAQ development</li>
+  <li>Structured data recommendations and implementation</li>
+  <li>Search visibility baselines and optimization roadmaps</li>
+</ul>
 
 <p><strong>AI Search Readiness Assessments starting at $1,500</strong></p>
 
@@ -90,18 +90,18 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <p>We design, develop, maintain, and improve digital experiences with your business goals and users in mind. We never implement or suggest technology just for technology's sake.</p>
 
-<li>
-  <ul>Website strategy and architecture</ul>
-  <ul>UX/UI design and review</ul>
-  <ul>Website design and development</ul>
-  <ul>CMS implementation and management</ul>
-  <ul>Custom CMS development</ul>
-  <ul>Platform migrations</ul>
-  <ul>Landing page development</ul>
-  <ul>Website maintenance and optimization</ul>
-  <ul>Automation and integrations</ul>
-  <ul>Analytics implementation</ul>
-</li>
+<ul>
+  <li>Website strategy and architecture</li>
+  <li>UX/UI design and review</li>
+  <li>Website design and development</li>
+  <li>CMS implementation and management</li>
+  <li>Custom CMS development</li>
+  <li>Platform migrations</li>
+  <li>Landing page development</li>
+  <li>Website maintenance and optimization</li>
+  <li>Automation and integrations</li>
+  <li>Analytics implementation</li>
+</ul>
 
 <p><strong>Website design and build projects starting at $5,000</strong></p>
 
@@ -115,17 +115,17 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <p>From deeply researched thought leadership to a time-sensitive media response, we turn expertise and information into clear, compelling communications built around the people you need to reach.</p>
 
-<li>
-  <ul>Content and editorial strategy</ul>
-  <ul>Copywriting and long-form content</ul>
-  <ul>Thought leadership</ul>
-  <ul>Executive ghostwriting</ul>
-  <ul>Blogs, articles, white papers, and case studies</ul>
-  <ul>Email marketing and newsletters</ul>
-  <ul>Public relations and media outreach</ul>
-  <ul>Press releases and media materials</ul>
-  <ul>Executive and stakeholder communications</ul>
-</li>
+<ul>
+  <li>Content and editorial strategy</li>
+  <li>Copywriting and long-form content</li>
+  <li>Thought leadership</li>
+  <li>Executive ghostwriting</li>
+  <li>Blogs, articles, white papers, and case studies</li>
+  <li>Email marketing and newsletters</li>
+  <li>Public relations and media outreach</li>
+  <li>Press releases and media materials</li>
+  <li>Executive and stakeholder communications</li>
+</ul>
 
 <p><strong>Crisis communications sprints starting at $2,500</strong></p>
 
@@ -139,16 +139,16 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <p>We plan and execute digital campaigns around your goals, audience, and resources, not an arbitrary posting quota or whatever the algorithm supposedly wants this week.</p>
 
-<li>
-  <ul>Social media strategy and management</ul>
-  <ul>Organic and paid social campaigns</ul>
-  <ul>Content calendars</ul>
-  <ul>Email campaigns</ul>
-  <ul>Digital advertising</ul>
-  <ul>Campaign analytics and reporting</ul>
-  <ul>Audience growth and engagement strategy</ul>
-  <ul>Multi-channel campaign development</ul>
-</li>
+<ul>
+  <li>Social media strategy and management</li>
+  <li>Organic and paid social campaigns</li>
+  <li>Content calendars</li>
+  <li>Email campaigns</li>
+  <li>Digital advertising</li>
+  <li>Campaign analytics and reporting</li>
+  <li>Audience growth and engagement strategy</li>
+  <li>Multi-channel campaign development</li>
+</ul>
 
 <p>Available as part of ongoing marketing engagements or as individual custom campaigns.</p>
 
@@ -161,17 +161,17 @@ Toque Marketing brings both sides together with services ranging from individual
 <p>Our extended technical capabilities help organizations create digital experiences and resources that are more accessible, secure, usable, and 
 easier to maintain.</p>
 
-<li>
-  <ul>Website accessibility audits</ul>
-  <ul>WCAG 2.2 AA accessibility reviews</ul>
-  <ul>Manual and automated accessibility testing</ul>
-  <ul>Accessibility remediation and retesting</ul>
-  <ul>PDF accessibility review</ul>
-  <ul>Cybersecurity audits and assessments</ul>
-  <ul>Technical documentation</ul>
-  <ul>Custom development</ul>
-  <ul>Specialized technical consulting</ul>
-</li>
+<ul>
+  <li>Website accessibility audits</li>
+  <li>WCAG 2.2 AA accessibility reviews</li>
+  <li>Manual and automated accessibility testing</li>
+  <li>Accessibility remediation and retesting</li>
+  <li>PDF accessibility review</li>
+  <li>Cybersecurity audits and assessments</li>
+  <li>Technical documentation</li>
+  <li>Custom development</li>
+  <li>Specialized technical consulting</li>
+</ul>
 
 <p><strong>Website accessibility audits starting at $1,500</strong></p>
 
