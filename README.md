@@ -1,10 +1,10 @@
-# Bridgetown Website README
+# Toque Marketing Static Site
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+Official Toque Marketing website made with Bridgetown!
 
 ## Table of Contents
 
-- [Bridgetown Website README](#bridgetown-website-readme)
+- [Toque Marketing Static Site](#toque-marketing-static-site)
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
