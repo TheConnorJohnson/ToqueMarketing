@@ -1,28 +1,30 @@
 :root {
-  --body-background: #f2f2f2;
+  --body-background: #19b0dc;
   --body-color: #444;
   --button-color: #f2f2f2;
   --heading-color: black;
-  --action-color: #d64045;
-  --footer-color: #00b1de;
+  --action-color: #38FF45;
+  --footer-color: #f2f2f2;
   --yellow: #fdda38;
 }
 
 body {
-  background: var(--body-background);
-  color: var(--body-color);
+  height: 100%;
+  background-image: url(/images/ToqueBackground.svg);
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Oswald", -apple-system, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
-  margin: 0 8px;
   font-size: 108%;
   line-height: 1.5;
 }
 
 a {
   color: var(--action-color);
-  text-decoration: underline;
-  text-decoration-color: #ffb088;
+  text-decoration: none;
 }
 
 h1 {
@@ -75,7 +77,7 @@ main {
   min-height: calc(100vh - 200px);
   padding: 25px 25px 50px;
   background: white;
-  box-shadow: 2px 3px 3px #ddd;
+  box-shadow: 4px 6px 6px #ddd;
   border-radius: 3rem;
 
   @media (max-width: 500px) {
@@ -84,6 +86,7 @@ main {
 }
 
 footer {
+  color: var(--footer-color);
   text-align: center;
   margin-bottom: 4rem;
   font-size: 1em;
@@ -122,14 +125,26 @@ button:hover {
 }
 
 .card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
   border-radius: 1rem;
   padding: 15px 25px;
   margin: 2rem 0 2rem 0;
   background-color: #a9bae8;
   font-size: 1.25rem;
+  max-width: 50rem;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
+  padding: 15px 25px;
+  margin: 2rem 0 2rem 0;
+  background-color: #a9bae8;
+  font-size: 1.25rem;
   width: 50rem;
   backdrop-filter: blur(5px);
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);

@@ -6,7 +6,7 @@ layout: default
 template_engine: erb
 ---
 
-## Comfortably Navigate Modern Marketing
+# Comfortably Navigate Modern Marketing
 
 Modern marketing is equal parts communication, creativity, and technology. So are we.
 
@@ -22,7 +22,7 @@ That's the gap Toque Marketing closes. From brand strategy, content, and public 
 
 Whether you need a single specialized project, ongoing marketing support, or an experienced team working behind the scenes, Toque helps you navigate what comes next.
 
-<button href=""> Explore Our Services </button> <button href=""> View Packages & Pricing </button>
+<a href="#toque-marketing-services"><button> Explore Our Services </button></a> <a href="mailto:contact@toquemarketing.com"><button> Get In Touch </button></a>
 
 ## Toque Marketing Services
 
@@ -32,7 +32,7 @@ Effective marketing doesn't stop when the strategy is approved. A great tech sta
 
 Toque Marketing brings both sides together with services ranging from individual projects and specialized technical work to ongoing fractional support.
 
-<%= render(Shared::Card.new(title: "Branding and Messaging", buttonlink: "https://www.emberot.com", buttontitle: "Create Your Marketing Strategy")) do |card| %>
+<%= render(Shared::Card.new(title: "Branding and Messaging", cardimage: "/images/ToqueMap.webp", alttext: "A black outline of a map with a trail of dots.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Create Your Marketing Strategy")) do |card| %>
 
 <p>Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.</p>
 
@@ -48,13 +48,13 @@ Toque Marketing brings both sides together with services ranging from individual
     <li>Fractional marketing and communications leadership</li>
 </ul>
 
-<p>Brand identity packages starting at $4,500.</p>
+<p><strong>Brand identity packages starting at $4,500.</strong></p>
 
 <p>Already have a brand but need help with positioning, messaging, or go-to-market strategy? We offer project-based consulting.</p>
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "AI Search, AEO & GEO Optimization", buttonlink: " ", buttontitle: "Help the AI-Powered Robots Find My Copy")) do |card| %>
+<%= render(Shared::Card.new(title: "AI Search, AEO & GEO Optimization", cardimage: "/images/ToqueLighthouse.webp", alttext: "A black outline of a lighthouse.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Help the AI-Powered Robots Find My Copy")) do |card| %>
 
 <p><strong>We leverage technical expertise to elevate the creative assets you've already invested in.</strong></p>
 
@@ -84,7 +84,7 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Web Design, Development & Digital Experience", buttonlink: " ", buttontitle: "Let's Build Your Homebase")) do |card| %>
+<%= render(Shared::Card.new(title: "Web Design, Development & Digital Experience", cardimage: "/images/ToqueRuby.webp", alttext: "An black outline of a ruby based on the Ruby programming language logo.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Let's Build Your Homebase")) do |card| %>
 
 <p><strong>No matter how great an idea is, you still need someone who can actually build it. Gain an optimized website that is built to to expand with your business.</strong></p>
 
@@ -109,7 +109,7 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Content, Communications & PR", buttonlink: " ", buttontitle: "Find Your Voice")) do |card| %>
+<%= render(Shared::Card.new(title: "Content, Communications & PR", cardimage: "/images/ToqueHook.webp", alttext: "A black outline of a fishing hook.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Find Your Voice")) do |card| %>
 
 <p><strong>We help the right people understand your message and why it matters.</strong></p>
 
@@ -133,7 +133,7 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Social & Digital Marketing", buttonlink: " ", buttontitle: "Plan A Campaign")) do |card| %>
+<%= render(Shared::Card.new(title: "Social & Digital Marketing", cardimage: "/images/ToqueAnchor.webp", alttext: "A black outline of an anchor.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Plan A Campaign")) do |card| %>
 
 <p><strong>Being everywhere all the time isn't a marketing strategy. Being in the right digital spaces for the right people is.</strong></p>
 
@@ -154,7 +154,7 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", buttonlink: "", buttontitle: "Build Something Everyone Can Use")) do |card| %>
+<%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", cardimage: "/images/ToqueTelescope.webp", alttext: "A black outline of a telescope.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Build Something Everyone Can Use")) do |card| %>
 
 <p><strong>Some projects require expertise that doesn't fit neatly into a traditional marketing org chart. That's kind of our thing.</strong></p>
 
@@ -181,23 +181,18 @@ easier to maintain.</p>
 
 ## Meet the Team Behind Toque
 
-### Christina Eichelkraut
+<%= render(Shared::Bio.new(profilepicture: "/images/Christina_Eichelkraut.webp", name: "Christina Eichelkraut", jobtitle: "Co-Founder - Communications & Content Strategy")) do |bio| %>
 
-**Co-Founder - Communications & Content Strategy**
+<p>Christina Eichelkraut is a communications strategist, writer and former journalist with nearly two decades of experience turning complicated ideas into clear, compelling stories. Her work spans technology, cybersecurity, healthcare, nonprofits and mission-driven organizations, with expertise in content strategy, thought leadership, executive communications, PR and brand messaging.</p>
 
-Christina Eichelkraut is a communications strategist, writer and former journalist with nearly two decades of experience turning complicated ideas into clear, compelling stories. Her work spans technology, cybersecurity, healthcare, nonprofits and mission-driven organizations, with expertise in content strategy, thought leadership, executive communications, PR and brand messaging.
+<p>Before moving into marketing and communications, Christina spent nearly a decade in newsrooms, where she learned to ask good questions, research unfamiliar subjects quickly and explain them without making them boring. Today, she brings that same approach to organizations that need smart strategy, strong writing and communications that actually sound human.</p>
 
-Before moving into marketing and communications, Christina spent nearly a decade in newsrooms, where she learned to ask good questions, research unfamiliar subjects quickly and explain them without making them boring. Today, she brings that same approach to organizations that need smart strategy, strong writing and communications that actually sound human.
+<p>She is also the founder and CEO of the Technology Education Collective, a Phoenix-based nonprofit dedicated to making hands-on technology education more accessible.</p>
 
-She is also the founder and CEO of the Technology Education Collective, a Phoenix-based nonprofit dedicated to making hands-on technology education more accessible.
+<% end %>
 
-### Connor Johnson
-
-**Co-Founder - Web Design & Development**
+<%= render(Shared::Bio.new(profilepicture: "/images/Connor_Johnson.webp", name: "Connor Johnson", jobtitle: "Co-Founder - Web Design & Development")) do |bio| %>
 
 As the Chief Technology Officer, Connor aims to inform clients about technology solutions and help them navigate with a forward looking strategies. He has worked alongside various companies and universities to expand their audience, improve their code quality, and grow their overall online presence. 
 
-----
-
-**Made with [Bridgetown](https://www.bridgetownrb.com/)**
-{:style="text-align:center"}
+<% end %>
