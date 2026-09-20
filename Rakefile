@@ -13,9 +13,9 @@ task :deploy => [:clean, "frontend:build"] do
   Bridgetown::Commands::Build.start
 end
 
-desc "Build the site in a test environment"
+desc "Build the site in a production environment"
 task :test do
-  ENV["BRIDGETOWN_ENV"] = "test"
+  ENV["BRIDGETOWN_ENV"] = "production"
   Bridgetown::Commands::Build.start
 end
 
