@@ -61,31 +61,47 @@ h3 {
   color: var(--heading-color);
   line-height: 1.2;
 }
-.column {
-  float: left;
-  @media (max-width: 728px) {
+@media (max-width: 728px) {
+  .column {
     width: 100%;
   }
+  .card .left-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .left-column img {
+    display: flex;
+    width: 15rem;
+    margin-bottom: 2rem;
+  }
+  .bio img {
+    margin-bottom: 2rem;
+  }
 }
-.left-column {
-  width: 40%;
-}
-.card .left-column {
-  display: flex;
-  width: 40%;
-  justify-content: center;
-  align-items: center;
-}
-.right-column {
-  width: 60%;
-}
-.row {
-  display: flex;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+@media (min-width: 728px) {
+  .column {
+    float: left;
+  }
+  .left-column {
+    width: 40%;
+  }
+  .card .left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-column {
+    width: 60%;
+  }
+  .row {
+    display: flex;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 body > header {
   margin: 1rem;
@@ -138,9 +154,6 @@ button {
   padding: 1rem;
   margin: 0 1rem 0 0;
   cursor: pointer;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
   background-color: #00b1de;
   background-image:
     linear-gradient(
@@ -171,12 +184,15 @@ button:hover {
   backdrop-filter: blur(5px);
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
-.card img {
+.card .left-column {
   display: flex;
-  flex-direction: column;
-  width: 20rem;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+.card .left-column img {
+  display: flex;
+  width: 20rem;
+  margin-bottom: 2rem;
 }
 .card p {
   margin-top: 0;
@@ -424,4 +440,4 @@ pre.highlight {
 .highlight .il {
   color: #009999;
 }
-/*# sourceMappingURL=/_bridgetown/static/index.MX3WWXDX.css.map */
+/*# sourceMappingURL=/_bridgetown/static/index.MYPPTJHR.css.map */
