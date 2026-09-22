@@ -1,9 +1,13 @@
 <card class = "card">
   <h3><%= @title %></h3>
-  <card-inner>
-    <img src="<%= relative_url @cardimage %>" alt="<%= @alttext %>" />
-    <%= content %>
+  <card-inner class = "row">
+    <div class = "column left-column">
+      <img src="<%= relative_url @cardimage %>" alt="<%= @alttext %>" />
+    </div>
+    <div class = "column right-column">
+      <%= content %>
+    </div>
 
-    <a href="<%= @buttonlink %>"><button rel="noopener"><%= @buttontitle %></button></a>
   </card-inner>
+  <a href="<%= @buttonlink %>"><button rel="noopener"><%= @buttontitle %></button></a>
 </card>

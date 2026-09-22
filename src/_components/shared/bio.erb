@@ -1,9 +1,13 @@
 <bio class = "bio">
-  <bio-inner>
-    <img src="<%= relative_url @profilepicture %>">
-    <h3><%= @name %></h3>
-    <h4><%= @jobtitle %></h4>
-    <%= content %>
-    
+  <h3><%= @name %></h3>
+  <strong><p><%= @jobtitle %></p></strong>
+  <bio-inner class = "row">
+    <div class = "column left-column">
+      <img src="<%= relative_url @profilepicture %>">
+    </div>
+    <div class = "column right-column">
+      <%= content %>
+    </div>
+
   </bio-inner>
 </bio>

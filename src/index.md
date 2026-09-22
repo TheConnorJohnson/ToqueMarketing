@@ -169,8 +169,7 @@ easier to maintain.</p>
   <li>PDF accessibility review</li>
   <li>Cybersecurity audits and assessments</li>
   <li>Technical documentation</li>
-  <li>Custom development</li>
-  <li>Specialized technical consulting</li>
+  <li>Custom development and consulting</li>
 </ul>
 
 <p><strong>Website accessibility audits starting at $1,500</strong></p>
@@ -193,6 +192,8 @@ easier to maintain.</p>
 
 <%= render(Shared::Bio.new(profilepicture: "/images/Connor_Johnson.webp", name: "Connor Johnson", jobtitle: "Co-Founder - Web Design & Development")) do |bio| %>
 
-As the Chief Technology Officer, Connor aims to inform clients about technology solutions and help them navigate with a forward looking strategies. He has worked alongside various companies and universities to expand their audience, improve their code quality, and grow their overall online presence. 
+<p>As the Chief Technology Officer, Connor aims to inform clients about technology solutions and help them navigate with forward looking strategies. While the industry is charging ahead with modern trends, Connor strives to build a solid foundation for businesses to better adapt. He has worked alongside various companies and universities to expand their audience, improve their code quality, and grow their overall online presence.</p>
+
+<p>He is also the CTO of Technology Education Collective, a Phoenix-based nonprofit dedicated to making hands-on technology education more accessible. Connor has lead various tech based events on a range of topics from Linux to Python programming.</p>
 
 <% end %>
