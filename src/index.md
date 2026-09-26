@@ -8,12 +8,6 @@ template_engine: erb
 
 # Comfortably Navigate Modern Marketing
 
-Modern marketing is equal parts communication, creativity, and technology. So are we.
-
-You shouldn't have to choose between people who understand your message and people who understand the technology behind it.
-
-Toque Marketing brings creative strategy and technical execution together under one roof.
-
 Too many businesses find themselves caught between technical teams that can build just about anything — but don't necessarily understand messaging — and marketing teams with creative ideas they can't technically execute. 
 
 The result? More vendors, more handoffs, more explaining, and a lot more opportunities for good ideas to get lost in translation.
@@ -32,25 +26,27 @@ Effective marketing doesn't stop when the strategy is approved. A great tech sta
 
 Toque Marketing brings both sides together with services ranging from individual projects and specialized technical work to ongoing fractional support.
 
-<%= render(Shared::Card.new(title: "Branding and Messaging", cardimage: "/images/ToqueMap.webp", alttext: "A black outline of a map with a trail of dots.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Create Your Marketing Strategy")) do |card| %>
+<%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", cardimage: "/images/ToqueTelescope.webp", alttext: "A black outline of a telescope.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Build Something Everyone Can Use")) do |card| %>
 
-<p>Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.</p>
+<p><strong>Some projects require expertise that doesn't fit neatly into a traditional marketing org chart. That's kind of our thing.</strong></p>
 
-<p>We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.</p>
+<p>Our extended technical capabilities help organizations create digital experiences and resources that are more accessible, secure, usable, and 
+easier to maintain.</p>
 
 <ul>
-    <li>Brand strategy and positioning</li>
-    <li>Messaging development</li>
-    <li>Brand identity and style guides</li>
-    <li>Marketing and communications strategy</li>
-    <li>Campaign development</li>
-    <li>Audience and stakeholder strategy</li>
-    <li>Fractional marketing and communications leadership</li>
+  <li>Website accessibility audits</li>
+  <li>WCAG 2.2 AA accessibility reviews</li>
+  <li>Manual and automated accessibility testing</li>
+  <li>Accessibility remediation and retesting</li>
+  <li>PDF accessibility review</li>
+  <li>Cybersecurity audits and assessments</li>
+  <li>Technical documentation</li>
+  <li>Custom development and consulting</li>
 </ul>
 
-<p><strong>Brand identity packages starting at $4,500.</strong></p>
+<p><strong>Website accessibility audits starting at $1,500</strong></p>
 
-<p>Already have a brand but need help with positioning, messaging, or go-to-market strategy? We offer project-based consulting.</p>
+<p>Technical documentation, cybersecurity, remediation, and specialized projects quoted by scope.</p>
 
 <% end %>
 
@@ -109,27 +105,25 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Content, Communications & PR", cardimage: "/images/ToqueHook.webp", alttext: "A black outline of a fishing hook.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Find Your Voice")) do |card| %>
+<%= render(Shared::Card.new(title: "Branding and Messaging", cardimage: "/images/ToqueMap.webp", alttext: "A black outline of a map with a trail of dots.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Create Your Marketing Strategy")) do |card| %>
 
-<p><strong>We help the right people understand your message and why it matters.</strong></p>
+<p>Knowing who you are, who you're talking to, and what you're trying to accomplish will always matter more than chasing the latest marketing trend.</p>
 
-<p>From deeply researched thought leadership to a time-sensitive media response, we turn expertise and information into clear, compelling communications built around the people you need to reach.</p>
+<p>We help organizations build strong brands and practical marketing strategies grounded in their actual goals and audiences.</p>
 
 <ul>
-  <li>Content and editorial strategy</li>
-  <li>Copywriting and long-form content</li>
-  <li>Thought leadership</li>
-  <li>Executive ghostwriting</li>
-  <li>Blogs, articles, white papers, and case studies</li>
-  <li>Email marketing and newsletters</li>
-  <li>Public relations and media outreach</li>
-  <li>Press releases and media materials</li>
-  <li>Executive and stakeholder communications</li>
+    <li>Brand strategy and positioning</li>
+    <li>Messaging development</li>
+    <li>Brand identity and style guides</li>
+    <li>Marketing and communications strategy</li>
+    <li>Campaign development</li>
+    <li>Audience and stakeholder strategy</li>
+    <li>Fractional marketing and communications leadership</li>
 </ul>
 
-<p><strong>Crisis communications sprints starting at $2,500</strong></p>
+<p><strong>Brand identity packages starting at $4,500.</strong></p>
 
-<p>Need something else? Content, communications, and PR projects can also be scoped individually or as ongoing support.</p>
+<p>Already have a brand but need help with positioning, messaging, or go-to-market strategy? We offer project-based consulting.</p>
 
 <% end %>
 
@@ -154,27 +148,27 @@ Toque Marketing brings both sides together with services ranging from individual
 
 <% end %>
 
-<%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", cardimage: "/images/ToqueTelescope.webp", alttext: "A black outline of a telescope.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Build Something Everyone Can Use")) do |card| %>
+<%= render(Shared::Card.new(title: "Content, Communications & PR", cardimage: "/images/ToqueHook.webp", alttext: "A black outline of a fishing hook.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Find Your Voice")) do |card| %>
 
-<p><strong>Some projects require expertise that doesn't fit neatly into a traditional marketing org chart. That's kind of our thing.</strong></p>
+<p><strong>We help the right people understand your message and why it matters.</strong></p>
 
-<p>Our extended technical capabilities help organizations create digital experiences and resources that are more accessible, secure, usable, and 
-easier to maintain.</p>
+<p>From deeply researched thought leadership to a time-sensitive media response, we turn expertise and information into clear, compelling communications built around the people you need to reach.</p>
 
 <ul>
-  <li>Website accessibility audits</li>
-  <li>WCAG 2.2 AA accessibility reviews</li>
-  <li>Manual and automated accessibility testing</li>
-  <li>Accessibility remediation and retesting</li>
-  <li>PDF accessibility review</li>
-  <li>Cybersecurity audits and assessments</li>
-  <li>Technical documentation</li>
-  <li>Custom development and consulting</li>
+  <li>Content and editorial strategy</li>
+  <li>Copywriting and long-form content</li>
+  <li>Thought leadership</li>
+  <li>Executive ghostwriting</li>
+  <li>Blogs, articles, white papers, and case studies</li>
+  <li>Email marketing and newsletters</li>
+  <li>Public relations and media outreach</li>
+  <li>Press releases and media materials</li>
+  <li>Executive and stakeholder communications</li>
 </ul>
 
-<p><strong>Website accessibility audits starting at $1,500</strong></p>
+<p><strong>Crisis communications sprints starting at $2,500</strong></p>
 
-<p>Technical documentation, cybersecurity, remediation, and specialized projects quoted by scope.</p>
+<p>Need something else? Content, communications, and PR projects can also be scoped individually or as ongoing support.</p>
 
 <% end %>
 

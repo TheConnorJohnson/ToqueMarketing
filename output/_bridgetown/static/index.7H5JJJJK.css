@@ -8,6 +8,9 @@
   --footer-color: #f2f2f2;
   --yellow: #fdda38;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   height: 100%;
   background-image: url(/images/ToqueBackground.svg);
@@ -440,4 +443,4 @@ pre.highlight {
 .highlight .il {
   color: #009999;
 }
-/*# sourceMappingURL=/_bridgetown/static/index.MYPPTJHR.css.map */
+/*# sourceMappingURL=/_bridgetown/static/index.7H5JJJJK.css.map */
