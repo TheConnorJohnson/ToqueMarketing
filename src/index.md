@@ -16,7 +16,7 @@ That's the gap Toque Marketing closes. From brand strategy, content, and public 
 
 Whether you need a single specialized project, ongoing marketing support, or an experienced team working behind the scenes, Toque helps you navigate what comes next.
 
-<a href="#toque-marketing-services"><button> Explore Our Services </button></a> <a href="mailto:contact@toquemarketing.com"><button> Get In Touch </button></a>
+<a href="#toque-marketing-services"><button> Explore Our Services </button></a> <a href="mailto:contact@toquemarketing.com"><button> Get In Touch </button></a> <a href="https://calendar.proton.me/bookings#_ooOJqa9fiofZgmdmbBf7sC8HSZv-UJXbA8f-rMXXuk="><button> Set Up A Meeting </button></a>
 
 ## Toque Marketing Services
 
@@ -25,6 +25,22 @@ Modern marketing is equal parts communication, creativity, and technology. So ar
 Effective marketing doesn't stop when the strategy is approved. A great tech stack doesn't matter if it's not solving the right problem.
 
 Toque Marketing brings both sides together with services ranging from individual projects and specialized technical work to ongoing fractional support.
+
+<%= render(Shared::Card.new(title: "Vibe Code Aid", cardimage: "/images/ToqueVibeCode.webp", alttext: "", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Build Something Everyone Can Use")) do |card| %>
+
+<p>While many businesses can crate apps and websites with ease, security and functionality may not always be optimized with vibe coding. If you want to give your customers or business partners a better experience with your product, it may be time to call in a human assistant. </p>
+
+<p>Our vibe code assist package includes:</p>
+
+<ul>
+  <li>Code review</li>
+  <li>Analysis report</li>
+  <li>Recommendations</li>
+  <li>Roadmap development</li>
+  <li>Maintenance and optimization</li>
+</ul>
+
+<% end %>
 
 <%= render(Shared::Card.new(title: "Accessibility, Security & Technical Services", cardimage: "/images/ToqueTelescope.webp", alttext: "A black outline of a telescope.", buttonlink: "mailto:contact@toquemarketing.com", buttontitle: "Build Something Everyone Can Use")) do |card| %>
 
